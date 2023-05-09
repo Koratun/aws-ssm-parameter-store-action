@@ -39,3 +39,8 @@ runs:
 branding:
   icon: chevron-up
   color: green
+
+pre:
+  steps:
+    - name: Install dependencies
+      run: npm install
