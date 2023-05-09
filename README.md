@@ -4,8 +4,8 @@ Write each pair of name and value of parameters selected by path out to file, ea
 
 Suppose you have following parameters in AWS's parameter store:
 
-  * `/config/application/production/API_ENDPOINT`
-  * `/config/application/production/API_KEY`
+* `/config/application/production/API_ENDPOINT`
+* `/config/application/production/API_KEY`
 
 Run this action:
 
@@ -23,7 +23,7 @@ Run this action:
 
 Then, you'll have `.env` file with following:
 
-```
+```bash
 API_ENDPOINT=...
 API_KEY=...
 ```
@@ -66,8 +66,14 @@ If you have a parameter named `/config/foo`, and you specified the input `path` 
 
 ## Author
 
+### Fork author
+
+Koratun <danmitch@uat.edu>
+
+### Original
+
 GY Noh <nohmad@gmail.com>
 
-# LICENSE
+## LICENSE
 
 MIT License
